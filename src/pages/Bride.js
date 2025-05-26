@@ -6,6 +6,7 @@ import '../App.css';
 import ImageModal from '../components/imageModal';
 import AccountModal from '../components/accountModal';
 import mapImage from './map.jpg';
+import mainImage from './main.png';
 
 function Bride() {
   // state for image modal
@@ -67,7 +68,7 @@ function Bride() {
           <div className="col-md">
             <div className='mainsection'>
               <div>
-                <img src="https://dave-khim-aws-bucket-public.s3.ap-northeast-2.amazonaws.com/test/love-tenderness-couple-s-crossed-hands.jpg" className='main-image' alt='t1'></img>
+                <img src={mainImage} className='main-image' alt='t1'></img>
               </div>
               <div className='mainsection-text'>
                 <div className='mainsection-text-1'>저희 결혼합니다</div>
@@ -164,7 +165,6 @@ function Bride() {
               setCopiedAccount={setCopiedAccount}
               />}
           </div>
-
           <div className="col col-md-2 col-lg-3">
           </div>
         </div>
