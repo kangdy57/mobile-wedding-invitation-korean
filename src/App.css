@@ -167,6 +167,11 @@
   align-items: center;
   gap: 10px;
 }
+
+.location-map {
+  width: 100%;
+  height: auto;
+}
 .location-section-text1 {
   color: #000;
   text-align: center;

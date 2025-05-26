@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import data from '../assets/image_data.json';
-import pinIcon from '../assets/location-pin.png';
 import brideAccountData from '../assets/bride_account_number_data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container as MapDiv, NaverMap, Marker, useNavermaps} from 'react-naver-maps';
 import '../App.css';
 import ImageModal from '../components/imageModal';
 import AccountModal from '../components/accountModal';
+import mapImage from './map.jpg';
 
 function Bride() {
   // state for image modal
@@ -15,8 +14,6 @@ function Bride() {
   // state for account modal
   const [ clickedAccountData, setClickedAccountData ] = useState(null);
   const [ copiedAccount, setCopiedAccount ] = useState(null);
-
-  const navermaps = useNavermaps()
 
   const handleClick = (item, index) => {
     setCurrentIndex(index);
@@ -130,27 +127,9 @@ function Bride() {
                 LOCATION
               </div>
             </div>
-            <div className='location-map-section'>
-              <MapDiv
-                style={{
-                  width: '100%',
-                  height: '350px'
-                }}
-              >
-                <NaverMap 
-                  defaultCenter={new navermaps.LatLng(37.59080787175967, 127.04353764771166)}
-                  defaultZoom={16}>
-                  <Marker 
-                  position={new navermaps.LatLng(37.59080787175967, 127.04353764771166)} 
-                  icon={
-                    {
-                      url : pinIcon,
-                      size : new navermaps.Size(64,64)
-                    }
-                  }/>
-                </NaverMap>
-              </MapDiv>
-            </div>
+
+            <img src={mapImage} alt="Map" className="location-map" />
+
             <div className='location-info-section'>
                 <div className='location-info-section-text1'>세종대왕기념관</div>
                 <div className='location-info-section-text2'>
