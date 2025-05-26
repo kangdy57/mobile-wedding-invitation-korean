@@ -93,14 +93,6 @@ function Bride() {
               <div className='invitation-section-text3'>
                 람 물미・저너히타 물미<span className='text3-inner'>의 아들</span> 프라노이 물미 
               </div>
-    <br/>
-    <br/>
-                <div className='invitation-section-text3'>
-                Jungbae Kang・Hyojung Jin<span className='text3-inner'>'s Daughter</span> Dayeon Kang
-              </div>
-              <div className='invitation-section-text3'>
-                Ram Mulmi・Janahita Mulmi<span className='text3-inner'>'s Son</span> Prannoy Mulmi
-              </div>
             </div>
             <div className='gallery-section'>
               <div className='gallery-section-text'>
