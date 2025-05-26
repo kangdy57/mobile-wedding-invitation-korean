@@ -1,11 +1,10 @@
 {
-    "data" :[
-        {
-            "text" : "1",
-            "main_image_link" : "https://cdn.stocksnap.io/img-thumbs/960w/wedding-ring_WZQVVNDMIQ.jpg",
-            "thumb_image_link" : "https://dave-khim-aws-bucket-public.s3.ap-northeast-2.amazonaws.com/test/Screenshot+2023-07-30+at+11.45.52+PM.png",
-            "link" : "https://cdn.stocksnap.io/img-thumbs/960w/wedding-ring_WZQVVNDMIQ.jpg"
-        }
-        
-    ] 
+  "data": [
+    {
+      "text": "1",
+      "main_image_link": "nepal.jpg",
+      "thumb_image_link": "nepal-thumb.jpg",
+      "link": "nepal.jpg"
+    }
+  ]
 }

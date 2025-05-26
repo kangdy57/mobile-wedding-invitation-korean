@@ -7,6 +7,8 @@ import ImageModal from '../components/imageModal';
 import AccountModal from '../components/accountModal';
 import mapImage from './map.jpg';
 import mainImage from './main.png';
+import nepalThumb from '../assets/nepal-thumb.jpg';
+import nepalMain from '../assets/nepal.jpg';
 
 function Bride() {
   // state for image modal
@@ -16,9 +18,15 @@ function Bride() {
   const [ clickedAccountData, setClickedAccountData ] = useState(null);
   const [ copiedAccount, setCopiedAccount ] = useState(null);
 
+  const imageMap = {
+  "nepal-thumb.jpg": nepalThumb,
+  "nepal.jpg": nepalMain
+};
+
+
   const handleClick = (item, index) => {
     setCurrentIndex(index);
-    setClickedImg(item.link);
+    setClickedImg(imageMap[item.link]);
   };
   const accountClick = (account_data) => {
     setClickedAccountData(account_data.data);
@@ -104,7 +112,7 @@ function Bride() {
               <div className='gallery-image-list-wrapper row'>
                   {data.data.map((item, index) => (
                     <div key={index} className='col-4'>
-                      <img className='gallery-image' src={item.thumb_image_link} alt={item.text} onClick={()=> handleClick(item, index)}/>
+                      <img className='gallery-image' src={imageMap[item.thumb_image_link]} alt={item.text} onClick={()=> handleClick(item, index)}/>
                     </div>
                   ))}
               </div>
