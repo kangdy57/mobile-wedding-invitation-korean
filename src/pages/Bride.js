@@ -133,7 +133,9 @@ function Bride() {
               <div className='location-how-publictrans-section-text1'>대중교통</div>
               <ol className='location-how-publictrans-section-list'>
                 <li>6호선 고려대역 3번 출구 (도보 10분 or 15분 간격 셔틀버스 운영)</li>
-
+              </ol>
+              <ol className='location-how-publictrans-section-list'>
+                <li>지선버스 1226; 간선버스 201, 273 (세종대왕기념관 정류장 하차)</li>
               </ol>
             </div>
             <div className='location-how2-section'>
