@@ -289,6 +289,37 @@
   line-height: 21px;
 }
 
+.general-info-section {
+  display: flex;
+  padding: 24px 20px 40px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.general-info-section-text1 {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #000;
+  font-family: 'NanumMyeongjo';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+.general-info-section-text2 {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: #000;
+  font-family: 'NanumMyeongjo';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
 .congratulatory-section{
   display: flex;
   width: 100%;
