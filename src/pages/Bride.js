@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import data from '../assets/image_data.json';
 import brideAccountData from '../assets/bride_account_number_data.json';
+import pinIcon from '../assets/location-pin.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container as MapDiv, NaverMap, Marker, useNavermaps} from 'react-naver-maps';
 import '../App.css';
 import ImageModal from '../components/imageModal';
 import AccountModal from '../components/accountModal';
-import mapImage from './map.jpg';
+//import mapImage from './map.jpg';
 import mainImage from './main.png';
 import nepalThumb from '../assets/nepal-thumb.jpg';
 import nepalMain from '../assets/nepal.jpg';
@@ -17,6 +19,8 @@ function Bride() {
   // state for account modal
   const [ clickedAccountData, setClickedAccountData ] = useState(null);
   const [ copiedAccount, setCopiedAccount ] = useState(null);
+
+    const navermaps = useNavermaps()
 
   const imageMap = {
   "nepal-thumb.jpg": nepalThumb,
@@ -123,14 +127,32 @@ function Bride() {
               setClickedImg={setClickedImg}
               />}
             </div>
-            <div className='location-section'>
+              <div className='location-section'>
               <div className='location-section-text1'>
                 LOCATION
               </div>
             </div>
-
-            <img src={mapImage} alt="Map" className="location-map" />
-
+            <div className='location-map-section'>
+              <MapDiv
+                style={{
+                  width: '100%',
+                  height: '350px'
+                }}
+              >
+                <NaverMap 
+                  defaultCenter={new navermaps.LatLng(37.5909615011864, 127.04363162642107)}
+                  defaultZoom={16}>
+                  <Marker 
+                  position={new navermaps.LatLng(37.5909615011864, 127.04363162642107)} 
+                  icon={
+                    {
+                      url : pinIcon,
+                      size : new navermaps.Size(64,64)
+                    }
+                  }/>
+                </NaverMap>
+              </MapDiv>
+            </div>
             <div className='location-info-section'>
                 <div className='location-info-section-text1'>세종대왕기념관</div>
                 <div className='location-info-section-text2'>
