@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/mobile-wedding-invitation-korean/static/css/main.99b7ac65.css",
-    "main.js": "/mobile-wedding-invitation-korean/static/js/main.ac43330d.js",
+    "main.js": "/mobile-wedding-invitation-korean/static/js/main.30685e64.js",
     "static/js/496.cf873d78.chunk.js": "/mobile-wedding-invitation-korean/static/js/496.cf873d78.chunk.js",
     "static/media/NotoSansKR-Regular.otf": "/mobile-wedding-invitation-korean/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
     "static/media/NanumMyeongjo-Regular.ttf": "/mobile-wedding-invitation-korean/static/media/NanumMyeongjo-Regular.01893c39cd1a403ef0a5.ttf",
     "static/media/main.png": "/mobile-wedding-invitation-korean/static/media/main.019d0945ea807d1c8c6c.png",
     "static/media/nepal-thumb.jpg": "/mobile-wedding-invitation-korean/static/media/nepal-thumb.dd76357600c165c9dce6.jpg",
     "static/media/nepal.jpg": "/mobile-wedding-invitation-korean/static/media/nepal.dd76357600c165c9dce6.jpg",
-    "static/media/map.jpg": "/mobile-wedding-invitation-korean/static/media/map.e8c016ec78d7fa03e42d.jpg",
     "index.html": "/mobile-wedding-invitation-korean/index.html",
     "static/media/arrow-left.svg": "/mobile-wedding-invitation-korean/static/media/arrow-left.76285d5f93b86eea4aae6a9590a2b866.svg",
     "static/media/arrow-right.svg": "/mobile-wedding-invitation-korean/static/media/arrow-right.c839f6e05c5514f4b2c731171a3aed54.svg",
     "main.99b7ac65.css.map": "/mobile-wedding-invitation-korean/static/css/main.99b7ac65.css.map",
-    "main.ac43330d.js.map": "/mobile-wedding-invitation-korean/static/js/main.ac43330d.js.map",
+    "main.30685e64.js.map": "/mobile-wedding-invitation-korean/static/js/main.30685e64.js.map",
     "496.cf873d78.chunk.js.map": "/mobile-wedding-invitation-korean/static/js/496.cf873d78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99b7ac65.css",
-    "static/js/main.ac43330d.js"
+    "static/js/main.30685e64.js"
   ]
 }
