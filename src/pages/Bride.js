@@ -201,7 +201,7 @@ function Bride() {
         </div>
       </div>
       <div className="footer">
-        컴퓨터공학을 전공하고 개발자로 일하고 있는<br/> 
+        컴퓨터공학을 전공하고 개발자로 일하는<br/> 
   신랑·신부가 직접 만든 청첩장입니다 <br/> 
   © 2025 Prannoy & Dayeon
 </div>
