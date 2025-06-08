@@ -163,22 +163,23 @@ function Bride() {
             <div className='location-how-publictrans-section'>
               <div className='location-how-publictrans-section-text1'>대중교통</div>
               <ol className='location-how-publictrans-section-list'>
-                <li>6호선 고려대역 3번 출구 (도보 10분 or 15분 간격 셔틀버스 운영)</li>
-                <li>지선버스 1226; 간선버스 201, 273 (세종대왕기념관 정류장 하차)</li>
+                <li>6호선 고려대역 3번 출구 <br/> (도보 10분 or 15분 간격 셔틀버스 운영)</li>
+                <li>지선버스 1226; 간선버스 201, 273 <br/> (세종대왕기념관 정류장 하차)</li>
               </ol>
             </div>
             <div className='location-how2-section'>
               <div className='location-how2-section-text1'>자가용</div>
               <div className='location-how2-section-text2'>
-                네비게이션 이용 시 “세종대왕기념관”을 입력하세요. (주차 무료)
+                네비게이션 이용 시 “세종대왕기념관”을 입력하세요. <br/>
+                (주차 무료)
               </div>
             </div>
             <div className='general-info-section'>
                 <div className='general-info-section-text1'>안내 드립니다</div>
                 <div className='general-info-section-text2'>
                     본 예식에는 외국인 하객분들도 다수 참석할 예정입니다.<br/>
-                    한국의 아름다움을 직접 느끼고자 많은 분들께서 한복을 입고 참석하실 예정이오니, <br/>
-                    평소 소장하고 계시던 한복이 있으시다면 부담 없이 착용해 주셔도 좋겠습니다.<br/>
+                    한국의 아름다움을 직접 느끼고자 많은 분들께서 한복을 입고 참석하실 예정이오니,
+                    평소 소장하고 계시던 한복이 있으시다면 부담없이 착용해 주셔도 좋겠습니다.<br/>
                     물론 한복이 아니어도 전혀 무방하오니, 편안한 마음으로 참석해 주시면 감사하겠습니다.<br/>
                 </div>
             </div>
@@ -199,6 +200,10 @@ function Bride() {
           </div>
         </div>
       </div>
+      <div className="footer">
+  신랑·신부가 직접 만든 청첩장입니다 <br/> 
+  © 2025 Prannoy & Dayeon. All Rights Reserved
+</div>
     </div>
     
   );

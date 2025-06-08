@@ -7,10 +7,16 @@
             "account_number" : "110-383-298400"
         },
           {
-            "title" : "부모님 계좌",
-            "bank_name" : "농협은행",
+            "title" : "신부 혼주 계좌 (부친)",
+            "bank_name" : "국민은행",
             "account_owner" : "강정배",
-            "account_number" : "110-383-298400"
+            "account_number" : "4787-0201-267102"
+        },
+        {
+            "title" : "신부 혼주 계좌 (모친)",
+            "bank_name" : "국민은행",
+            "account_owner" : "진효정",
+            "account_number" : "008-210-353387"
         }
     ]
 }

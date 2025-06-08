@@ -532,6 +532,14 @@
   line-height: 21px;
   text-transform: uppercase;
 }
+
+.footer {
+  margin-top: auto;
+  padding: 1rem;
+  background: #f8f9fa;
+  text-align: center;
+}
+
 /* font */
 
 @font-face {
