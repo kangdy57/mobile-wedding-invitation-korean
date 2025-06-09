@@ -219,15 +219,15 @@ function Bride() {
   <br />
   <strong>전통혼례식 예시영상</strong>
   <br />
- <iframe
-  title="전통혼례예시"
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/oFP1a4Ra2Qs"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-></iframe>
+ <div className="video-wrapper">
+  <iframe
+    title="전통혼례예시"
+    src="https://www.youtube.com/embed/oFP1a4Ra2Qs"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
 <br />
   <br />
 </div>
