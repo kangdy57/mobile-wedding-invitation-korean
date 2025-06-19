@@ -12,10 +12,19 @@ import {
 import "../App.css";
 import ImageModal from "../components/imageModal";
 import AccountModal from "../components/accountModal";
-//import mapImage from './map.jpg';
-import mainImage from "./main.png";
-import nepalThumb from "../assets/nepal-thumb.jpg";
-import nepalMain from "../assets/nepal.jpg";
+import mainImage from "./mainImage.jpg";
+import no1 from "./no1.jpg";
+import no2 from "./no2.jpg";
+import no3 from "./no3.jpg";
+import no4 from "./no4.jpg";
+import no5 from "./no5.jpg";
+import no6 from "./no6.jpg";
+import no7 from "./no7.jpg";
+import no8 from "./no8.jpg";
+import no9 from "./no9.jpg";
+import no10 from "./no10.jpg";
+import no11 from "./no11.jpg";
+import no12 from "./no12.jpg";
 
 function Bride() {
   // state for image modal
@@ -28,8 +37,18 @@ function Bride() {
   const navermaps = useNavermaps();
 
   const imageMap = {
-    "nepal-thumb.jpg": nepalThumb,
-    "nepal.jpg": nepalMain,
+   "no1.jpg": no1,
+  "no2.jpg": no2,
+  "no3.jpg": no3,
+  "no4.jpg": no4,
+  "no5.jpg": no5,
+  "no6.jpg": no6,
+  "no7.jpg": no7,
+  "no8.jpg": no8,
+  "no9.jpg": no9,
+  "no10.jpg": no10,
+  "no11.jpg": no11,
+  "no12.jpg": no12
   };
 
   const handleClick = (item, index) => {
@@ -201,38 +220,37 @@ function Bride() {
                 (주차 무료)
               </div>
             </div>
-<div className="general-info-section">
-<div className="general-info-section-text1">안내 드립니다</div>
-<div className="general-info-section-text2">
-<br />본 예식에는 외국인 하객분들도 다수 참석할 예정입니다.
-<br />
-<br />
-한국의 아름다움을 직접 느끼고자 많은 분들께서 한복을 입고
-참석하실 예정이오니, 평소 소장하고 계시던 한복이 있으시다면
-부담없이 착용해 주셔도 좋겠습니다.
-<br />
-<br />
-물론 한복이 아니어도 전혀 무방하오니, 편안한 마음으로 참석해
-주시면 감사하겠습니다.
-<br />
-<br />
-  <br />
-  <strong>전통혼례식 예시영상</strong>
-  <br />
- <div className="video-wrapper">
-  <iframe
-    title="전통혼례예시"
-    src="https://www.youtube.com/embed/oFP1a4Ra2Qs"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-  ></iframe>
-</div>
-<br />
-  <br />
-</div>
-</div>
-
+            <div className="general-info-section">
+              <div className="general-info-section-text1">안내 드립니다</div>
+              <div className="general-info-section-text2">
+                <br />본 예식에는 외국인 하객분들도 다수 참석할 예정입니다.
+                <br />
+                <br />
+                한국의 아름다움을 직접 느끼고자 많은 분들께서 한복을 입고
+                참석하실 예정이오니, 평소 소장하고 계시던 한복이 있으시다면
+                부담없이 착용해 주셔도 좋겠습니다.
+                <br />
+                <br />
+                물론 한복이 아니어도 전혀 무방하오니, 편안한 마음으로 참석해
+                주시면 감사하겠습니다.
+                <br />
+                <br />
+                <br />
+                <strong>전통혼례식 예시영상</strong>
+                <br />
+                <div className="video-wrapper">
+                  <iframe
+                    title="전통혼례예시"
+                    src="https://www.youtube.com/embed/oFP1a4Ra2Qs"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <br />
+                <br />
+              </div>
+            </div>
             <div className="congratulatory-section">
               <div className="congratulatory-section-text">마음 전하실 곳</div>
               <div
@@ -253,12 +271,13 @@ function Bride() {
           </div>
           <div className="col col-md-2 col-lg-3"></div>
         </div>
+
+        
       </div>
       <div className="footer">
         컴퓨터공학을 전공하고 개발자로 일하는
         <br />
-        신랑·신부가 직접 만든 청첩장입니다 <br />
-        © 2025 Prannoy & Dayeon
+        신랑·신부가 직접 만든 청첩장입니다 <br />© 2025 Prannoy & Dayeon
       </div>
     </div>
   );
