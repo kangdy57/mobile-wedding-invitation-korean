@@ -115,7 +115,7 @@ const handleRotationLeft = () => {
                 <strong>한국</strong>에서 태어난 <strong>다연</strong>과<br />
                 <strong>네팔</strong>에서 태어난 <strong>프라노이</strong>가
                 <br />
-                <strong>독일</strong>에서 운명처럼 만나
+                <strong>독일, 함부르크</strong>에서 운명처럼 만나
                 <br />
                 한 가정을 이루게 되었습니다.
                 <br />
