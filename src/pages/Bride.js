@@ -59,39 +59,32 @@ function Bride() {
     setClickedAccountData(account_data.data);
   };
 
-  const handleRotationRight = () => {
-    const totalLength = data.data.length;
-    if (currentIndex + 1 >= totalLength) {
-      setCurrentIndex(0);
-      const newUrl = data.data[0].link;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex + 1;
-    const newUrl = data.data.filter((item) => {
-      return data.data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].link;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
+const handleRotationRight = () => {
+  const totalLength = data.data.length;
+  let newIndex;
+  if (currentIndex + 1 >= totalLength) {
+    newIndex = 0;
+  } else {
+    newIndex = currentIndex + 1;
+  }
+  const newItem = data.data[newIndex].link;
+  setClickedImg(imageMap[newItem]);
+  setCurrentIndex(newIndex);
+};
 
-  const handleRotationLeft = () => {
-    const totalLength = data.data.length;
-    if (currentIndex === 0) {
-      setCurrentIndex(totalLength - 1);
-      const newUrl = data.data[totalLength - 1].link;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex - 1;
-    const newUrl = data.data.filter((item) => {
-      return data.data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].link;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
+const handleRotationLeft = () => {
+  const totalLength = data.data.length;
+  let newIndex;
+  if (currentIndex === 0) {
+    newIndex = totalLength - 1;
+  } else {
+    newIndex = currentIndex - 1;
+  }
+  const newItem = data.data[newIndex].link;
+  setClickedImg(imageMap[newItem]);
+  setCurrentIndex(newIndex);
+};
+
 
   return (
     <div className="">
