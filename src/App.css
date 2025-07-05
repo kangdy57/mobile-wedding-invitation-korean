@@ -183,6 +183,7 @@
 .location-map {
   width: 100%;
   height: auto;
+   margin-bottom: 24px;
 }
 .location-section-text1 {
   color: #000;
@@ -196,6 +197,7 @@
 }
 .location-map-section {
   z-index: 30;
+   margin-bottom: 24px;
 }
 .location-info-section {
   display: flex;
@@ -204,6 +206,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+    background: #F5EEE1;
 }
 .location-info-section-text1 {
   display: flex;
@@ -226,6 +229,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+  
 }
 
 .location-how-publictrans-section {
@@ -236,6 +240,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+    background: #F5EEE1;
 }
 .location-how-publictrans-section-text1 {
   display: flex;
@@ -277,6 +282,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+    background: #F5EEE1;
 }
 .location-how2-section-text1 {
   display: flex;
@@ -308,6 +314,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+  background: #F5EEE1;
 }
 .general-info-section-text1 {
   display: flex;
@@ -319,6 +326,7 @@
   font-style: normal;
   font-weight: 800;
   line-height: 20px;
+  
 }
 .general-info-section-text2 {
   display: flex;
@@ -341,7 +349,7 @@
   justify-content: center;
   align-items: center;
   gap: 24px;
-  background: #F5EEE1;
+  background: #FBEFE7;
 }
 .congratulatory-section-text-1 {
   color: #000;
