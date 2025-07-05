@@ -232,12 +232,15 @@ const handleRotationLeft = () => {
               </div>
             </div>
             <div className="congratulatory-section">
-              <div className="congratulatory-section-text">마음 전하실 곳</div>
+              <div className="congratulatory-section-text-1"><strong>마음 전하실 곳</strong></div>
+              <div className="congratulatory-section-text-2">참석이 어려우신 분들을 위해<br />
+                                                              계좌번호를 함께 안내드립니다.<br /><br />
+                                                             전해주시는 마음, 감사히 간직하겠습니다. </div>
               <div
                 className="congratulatory-section-btn"
                 onClick={() => accountClick(brideAccountData)}
               >
-                신부 측 계좌번호
+              신부 측 계좌번호
               </div>
             </div>
             {clickedAccountData && (
