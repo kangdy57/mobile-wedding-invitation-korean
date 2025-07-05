@@ -93,6 +93,9 @@
   align-items: center;
   gap: 4px;
   background: #F5EEE1;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .invitation-section-text1 {
   margin-bottom: 32px;
@@ -103,16 +106,22 @@
   font-style: normal;
   font-weight: 800;
   line-height: 19px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .invitation-section-text2 {
   margin-bottom: 32px;
   color: #000;
   text-align: center;
   font-family: NanumMyeongjo;
-  font-size: 16px;
+  font-size: clamp(14px, 2.5vw, 15px);
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .invitation-section-text3 {
   display: flex;
@@ -132,6 +141,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 .text3-inner {
   font-family: 'NanumMyeongjo';
@@ -570,4 +582,62 @@
 @font-face {
   font-family: 'NotoSansKR';
   src: local('NotoSansKR'), url(./fonts/Noto_Sans_KR/NotoSansKR-Regular.otf) format('truetype');
+}
+
+@media (max-width: 600px) {
+  .container,
+  .main,
+  .mainsection-text,
+  .invitation-section,
+  .gallery-section,
+  .location-section,
+  .location-info-section,
+  .location-how-publictrans-section,
+  .location-how2-section,
+  .general-info-section,
+  .congratulatory-section {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+@media (max-width: 768px) {
+  .mainsection-text-2 {
+    font-size: 24px;
+  }
+  .invitation-section-text2 {
+    font-size: clamp(14px, 2.5vw, 14px);
+  }
+  .invitation-section-text3 {
+    font-size: 18px;
+  }
+  .gallery-section-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .mainsection-text-2 {
+    font-size: 20px;
+  }
+  .invitation-section-text2 {
+    font-size: clamp(14px, 2.5vw, 14px);
+  }
+  .invitation-section-text3 {
+    font-size: 18px;
+  }
+  .gallery-section-text {
+    font-size: 12px;
+  }
+  .location-info-section-text1,
+  .location-info-section-text2,
+  .location-how-publictrans-section-text1,
+  .location-how-publictrans-section-list li,
+  .location-how2-section-text1,
+  .location-how2-section-text2,
+  .general-info-section-text1,
+  .general-info-section-text2 {
+    font-size: 14px;
+  }
+  .congratulatory-section-text {
+    font-size: 16px;
+  }       
 }
