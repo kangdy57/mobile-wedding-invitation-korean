@@ -602,10 +602,10 @@
 }
 @media (max-width: 768px) {
   .mainsection-text-2 {
-    font-size: 24px;
+    font-size: 28x;
   }
   .invitation-section-text2 {
-    font-size: clamp(14px, 2.5vw, 14px);
+    font-size: clamp(16px, 2.5vw, 16px);
   }
   .invitation-section-text3 {
     font-size: 18px;
@@ -619,10 +619,10 @@
     font-size: 20px;
   }
   .invitation-section-text2 {
-    font-size: clamp(14px, 2.5vw, 14px);
+    font-size: clamp(16px, 2.5vw, 16px);
   }
   .invitation-section-text3 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .gallery-section-text {
     font-size: 12px;
