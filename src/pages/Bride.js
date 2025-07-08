@@ -229,8 +229,6 @@ const handleRotationLeft = () => {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <br />
-                <br />
               </div>
             </div>
             <div className="congratulatory-section">
