@@ -200,6 +200,8 @@ const handleRotationLeft = () => {
                 (주차 무료)
               </div>
             </div>
+              <br />
+                <br />
             <div className="general-info-section">
               <div className="general-info-section-text1">안내 드립니다</div>
               <div className="general-info-section-text2">
