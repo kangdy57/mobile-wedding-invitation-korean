@@ -625,7 +625,6 @@ display: flex;
   .main,
   .mainsection-text,
   .invitation-section,
-  .general-info-section,
   .congratulatory-section {
     padding-left: 5px !important;
     padding-right: 5px !important;
@@ -651,10 +650,6 @@ display: flex;
   }
   .invitation-section-text3 {
     font-size: 16px;
-  }
-  .general-info-section-text1,
-  .general-info-section-text2 {
-    font-size: 14px;
   }
   .congratulatory-section-text {
     font-size: 16px;
