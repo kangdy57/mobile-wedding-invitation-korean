@@ -233,8 +233,6 @@ const handleRotationLeft = () => {
                 <br />
               </div>
             </div>
-            <br />
-                <br />
             <div className="congratulatory-section">
               <div className="congratulatory-section-text-1"><strong>마음 전하실 곳</strong></div>
               <div className="congratulatory-section-text-2">참석이 어려우신 분들을 위해<br />
