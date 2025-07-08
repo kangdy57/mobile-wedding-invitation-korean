@@ -183,7 +183,7 @@
 .location-map {
   width: 100%;
   height: auto;
-   margin-bottom: 24px;
+   margin-bottom: 0px;
 }
 .location-section-text1 {
   color: #000;
@@ -197,7 +197,7 @@
 }
 .location-map-section {
   z-index: 30;
-   margin-bottom: 24px;
+   margin-bottom: 10px;
 }
 .location-info-section {
   display: flex;
@@ -310,6 +310,7 @@
   justify-content: center;
   align-items: flex-start;
   gap: 8px;
+  background: #FFFFF4;
 }
 .general-info-section-text1 {
   display: flex;
