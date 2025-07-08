@@ -201,7 +201,7 @@ const handleRotationLeft = () => {
               </div>
             </div>
               <br />
-                <br />
+
             <div className="general-info-section">
               <div className="general-info-section-text1">안내 드립니다</div>
               <div className="general-info-section-text2">
@@ -216,10 +216,12 @@ const handleRotationLeft = () => {
                 물론 한복이 아니어도 전혀 무방하오니, 편안한 마음으로 참석해
                 주시면 감사하겠습니다.
                 <br />
-                <br />
-                <br />
-                <strong>전통혼례식 예시영상</strong>
-                <br />
+      <br />
+      전통혼례의 분위기를 미리 느껴보실 수 있도록 아래에 예시 영상을 준비했습니다.
+              </div>
+            </div>
+            <div className="video-section">
+               <div className="video-section-text1">
                 <div className="video-wrapper">
                   <iframe
                     title="전통혼례예시"
@@ -229,8 +231,9 @@ const handleRotationLeft = () => {
                     allowFullScreen
                   ></iframe>
                 </div>
-              </div>
-            </div>
+               </div>
+              
+              </div>   
             <div className="congratulatory-section">
               <div className="congratulatory-section-text-1"><strong>마음 전하실 곳</strong></div>
               <div className="congratulatory-section-text-2">참석이 어려우신 분들을 위해<br />
