@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mobile-wedding-invitation-korean/static/css/main.cb4aeda6.css",
+    "main.css": "/mobile-wedding-invitation-korean/static/css/main.7cea3993.css",
     "main.js": "/mobile-wedding-invitation-korean/static/js/main.62375d5f.js",
     "static/js/496.cf873d78.chunk.js": "/mobile-wedding-invitation-korean/static/js/496.cf873d78.chunk.js",
     "static/media/NotoSansKR-Regular.otf": "/mobile-wedding-invitation-korean/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
@@ -8,12 +8,12 @@
     "index.html": "/mobile-wedding-invitation-korean/index.html",
     "static/media/arrow-left.svg": "/mobile-wedding-invitation-korean/static/media/arrow-left.76285d5f93b86eea4aae6a9590a2b866.svg",
     "static/media/arrow-right.svg": "/mobile-wedding-invitation-korean/static/media/arrow-right.c839f6e05c5514f4b2c731171a3aed54.svg",
-    "main.cb4aeda6.css.map": "/mobile-wedding-invitation-korean/static/css/main.cb4aeda6.css.map",
+    "main.7cea3993.css.map": "/mobile-wedding-invitation-korean/static/css/main.7cea3993.css.map",
     "main.62375d5f.js.map": "/mobile-wedding-invitation-korean/static/js/main.62375d5f.js.map",
     "496.cf873d78.chunk.js.map": "/mobile-wedding-invitation-korean/static/js/496.cf873d78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb4aeda6.css",
+    "static/css/main.7cea3993.css",
     "static/js/main.62375d5f.js"
   ]
 }
