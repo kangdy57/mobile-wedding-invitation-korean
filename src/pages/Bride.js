@@ -84,7 +84,7 @@ const handleRotationLeft = () => {
           <div className="col-md">
             <div className="mainsection">
               <div>
-                <img src={"https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/mainImage.jpg"} className="main-image" alt="t1"></img>
+                 <img src={mainImage} className="main-image" alt="t1"></img>
               </div>
               <div className="mainsection-text">
                 <div className="mainsection-text-1">저희 결혼합니다</div>
