@@ -23,6 +23,8 @@ function Bride() {
 
   const navermaps = useNavermaps();
 
+  //test
+
 const imageMap = {
   "no1.jpg": "https://5hiexw8se9.ucarecd.net/86d81d21-9992-4ca0-acdf-e70a6091babb/",
   "no2.jpg": "https://5hiexw8se9.ucarecd.net/3e8a1691-8cca-4cb4-8636-0b826f27444c/",
