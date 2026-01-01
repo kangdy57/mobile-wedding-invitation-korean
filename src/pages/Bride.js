@@ -11,6 +11,7 @@ import {
 } from "react-naver-maps";
 import "../App.css";
 import ImageModal from "../components/imageModal";
+import mainImage from "../pages/mainImage.jpg"; 
 import AccountModal from "../components/accountModal";
 
 function Bride() {
