@@ -113,7 +113,7 @@ const handleRotationLeft = () => {
                 함께 해 주시면 감사하겠습니다.
               </div>
               <div className="invitation-section-text3">
-                강정배・진효정<span className="text3-inner">의 딸</span> 강다연
+                강정배・진효정(숙희)<span className="text3-inner">의 딸</span> 강다연
               </div>
               <div className="invitation-section-text3">
                 람 물미・저너히타 물미
