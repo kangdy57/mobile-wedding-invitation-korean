@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+:root {
+  /* palette — drawn from the photographs: warm stone, cream, verdigris copper */
+  --ink: #2c2824;
+  --ink-soft: #5d564e;
+  --ink-faint: #9a9189;
+  --paper: #faf7f2;
+  --sand: #f0e9dd;
+  --sand-deep: #e4dac8;
+  --verdigris: #6d8f87;
+  --verdigris-deep: #47655e;
+  --line: rgba(44, 40, 36, 0.14);
+
+  /* Cormorant / Jost carry the Latin and the numerals; neither has Hangul,
+     so every Korean glyph falls through to Nanum Myeongjo / Noto Sans KR.
+     That keeps the dates and section labels in the same faces as the
+     English invitation while the Korean copy stays properly set. */
+  --serif: "Cormorant Garamond", "Nanum Myeongjo", Georgia, serif;
+  --sans: "Jost", "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  /* letterspaced small caps used for every section label */
+  --eyebrow-tracking: 0.26em;
+
+  --page: 440px;
+  --gutter: 26px;
+  --radius: 14px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--sand-deep);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.65;
+  /* Hangul has no spaces to break on inside a clause — break by word first,
+     and only fall back to mid-word breaks when a run genuinely won't fit */
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  /* Cormorant defaults to old-style figures. On the English invitation the
+     numerals mostly stand alone; here they sit inside Korean sentences
+     ("6호선", "회기로 56"), where a descending 3 or 6 next to full-height
+     Hangul just reads as broken. Lining figures everywhere. */
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* nothing on this page should ever scroll sideways */
+  overflow-x: hidden;
+}
+
+/* locked while the lightbox or the account sheet is open */
+body.is-locked {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
